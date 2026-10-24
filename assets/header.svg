@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c30"/><stop offset="1" stop-color="#142f40"/></linearGradient>
+ <radialGradient id="s"><stop stop-color="#5eead4" stop-opacity=".8"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient>
+ <radialGradient id="b"><stop stop-color="#80adff" stop-opacity=".65"/><stop offset="1" stop-color="#80adff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9bcbd9" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1280" height="320" rx="20" fill="url(#bg)"/>
+<rect width="1280" height="320" rx="20" fill="url(#grid)"/>
+<path d="M65 64h42" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+<text x="65" y="109" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#5eead4">COMPUTER GRAPHICS / GPU COMPUTING</text>
+<text x="62" y="178" font-family="Arial,sans-serif" font-size="55" font-weight="700" letter-spacing="1" fill="#f1f5f9">Xianfa Zhou</text>
+<text x="65" y="219" font-family="Arial,sans-serif" font-size="21" fill="#b5c6d8">3D Gaussian Splatting &amp; Efficient Rendering</text>
+<text x="65" y="270" font-family="Arial,sans-serif" font-size="13" letter-spacing="2" fill="#86a4bb">HARBIN INSTITUTE OF TECHNOLOGY, SHENZHEN</text>
+<g>
+ <ellipse cx="1000" cy="162" rx="165" ry="60" transform="rotate(-32 1000 162)" fill="url(#s)"/>
+ <ellipse cx="1050" cy="154" rx="113" ry="87" transform="rotate(31 1050 154)" fill="url(#b)"/>
+ <ellipse cx="930" cy="196" rx="90" ry="39" transform="rotate(-24 930 196)" fill="url(#b)"/>
+ <ellipse cx="1000" cy="162" rx="147" ry="51" transform="rotate(-32 1000 162)" fill="none" stroke="#5eead4" stroke-opacity=".6"/>
+ <ellipse cx="1050" cy="154" rx="94" ry="70" transform="rotate(31 1050 154)" fill="none" stroke="#91b7ff" stroke-opacity=".6"/>
+ <ellipse cx="930" cy="196" rx="75" ry="29" transform="rotate(-24 930 196)" fill="none" stroke="#91b7ff" stroke-opacity=".4"/>
+ <path d="m899 224 101-62 50-8 68-70M1000 162l40 93" fill="none" stroke="#b5e8e3" stroke-opacity=".25" stroke-dasharray="4 6"/>
+ <g fill="#e2fff7"><circle cx="1000" cy="162" r="4"/><circle cx="1050" cy="154" r="3"/><circle cx="930" cy="196" r="3"/></g>
+</g>
+</svg>
